@@ -26,6 +26,6 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
 
     } catch (error) {
         console.error('Error:', error)
-        alert('Error al procesar la solicitud')
+        alert('Acceso inválido')
     }
 });
